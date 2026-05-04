@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+setup.cfg
+
+# --- IDE (Configuration de votre éditeur) ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- Données et Modèles (Trop lourds ou personnels) ---
+# Si vous avez un dossier avec des photos de visages, ne le publiez pas pour la confidentialité
+datasets/
+known_faces/
+*.h5
+*.pkl
+*.model
+
+# --- Système ---
+.DS_Store
+Thumbs.db
+
+# --- Environnement ---
+.env
